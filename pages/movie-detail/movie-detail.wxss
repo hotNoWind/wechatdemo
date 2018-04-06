@@ -1,0 +1,38 @@
+/* pages/movie-detail/movie-detail.wxss */
+.film-content {
+    padding: 30rpx;
+}
+
+.film-content view {
+    margin: 10rpx 0;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 50rpx;
+}
+
+.type,
+.time {
+    font-size: 30rpx;
+}
+
+.summary {
+    font-size: 28rpx;
+    text-indent: 2em;
+    color: #666;
+}
+
+.tags {
+    overflow: hidden;
+}
+
+.tags text {
+    float: left;
+    font-size: 30rpx;
+    border: 1rpx solid #666;
+    color: #666;
+    border-radius: 10rpx;
+    padding: 0 10rpx;
+    margin: 10rpx; 
+}

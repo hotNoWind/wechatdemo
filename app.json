@@ -1,0 +1,42 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/subject/subject",
+        "pages/user/user",
+        "pages/movie-detail/movie-detail",
+        "pages/type-movies/type-movies"
+    ],
+    "window": {
+        "navigationBarBackgroundColor": "#ffffff",
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "豆瓣电影预告",
+        "backgroundColor": "#eeeeee",
+        "backgroundTextStyle": "light",
+        "enablePullDownRefresh": false
+    },
+    "tabBar": {
+        "backgroundColor": "#fff",
+        "color": "#000",
+        "selectedColor": "#000",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "首页",
+                "iconPath": "/assets/images/index.png",
+                "selectedIconPath": "/assets/images/index-active.png"
+            },
+            {
+                "pagePath": "pages/subject/subject",
+                "text": "分类",
+                "iconPath": "/assets/images/subject.png",
+                "selectedIconPath": "/assets/images/subject-active.png"
+            },
+            {
+                "pagePath": "pages/user/user",
+                "text": "我的",
+                "iconPath": "/assets/images/user.png",
+                "selectedIconPath": "/assets/images/user-active.png"
+            }
+        ]
+    }
+}

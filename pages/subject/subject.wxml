@@ -1,0 +1,11 @@
+<!--pages/subject/subject.wxml-->
+<view class='type-wrap'>
+    <view class='type-title'>
+        <text>电影分类</text>
+    </view>
+    <view class='type-movies' wx:key='{{index}}' wx:for="{{type}}" bindtap='toMoviesType' data-text="{{item.title}}">
+        <image mode='aspectFit' src='{{item.src}}'></image>
+        <text>{{item.title}}</text>
+    </view>
+</view>
+

@@ -1,0 +1,14 @@
+<!--pages/user/user.wxml-->
+<view class='userZone'>
+    <view class='personal'>
+        <image src="{{avatarUrl}}"></image>
+        <text>{{nickName}}</text>
+    </view>
+</view>
+<view class='history'>
+    <view class='historyTitle'>观看历史</view>
+    <view class='records-list' wx:key="{{item.nub}}" wx:for="{{moviesName}}">
+        <view class='records' bindtap='toMoviesDetail' data-nub="{{item.nub}}">{{item.val}}</view>
+    </view>
+    <view class='clearHistory' wx:if="{{showHistory}}" bindtap='clearHisMess'>清除历史记录</view>
+</view>

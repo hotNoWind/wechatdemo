@@ -1,0 +1,47 @@
+/* pages/user/user.wxss */
+page {
+    height: 100%;
+    background: #fff;
+}
+.userZone {
+    padding: 10rpx 0;
+}
+.userZone image {
+    display: block;
+    margin: 0 auto;
+    width: 150rpx;
+    height: 150rpx;
+    border-radius: 50%;
+}
+.userZone text {
+    display: block;
+    margin: 10rpx auto;
+    font-size: 30rpx;
+    text-align: center;
+}
+.historyTitle {
+    text-indent: 50rpx;
+    font-size: 40rpx;
+    line-height: 60rpx;
+}
+.records-list {
+    margin-top: 30rpx;
+}
+.records-list .records {
+    margin-top: 30rpx;
+    background: #ccc;
+    font-size: 40rpx;
+    line-height: 80rpx;
+    text-indent: 50rpx;
+    background: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1522832470638&di=4806409462330ab56827438613d1a5f3&imgtype=jpg&src=http%3A%2F%2Fimg4.imgtn.bdimg.com%2Fit%2Fu%3D2459182224%2C866921395%26fm%3D214%26gp%3D0.jpg") no-repeat center right;
+    background-size: 40rpx 40rpx;
+}
+.clearHistory {
+    text-align: center;
+    width: 400rpx;
+    background-color: #999;
+    border-radius: 35rpx;
+    line-height: 70rpx;
+    font-size: 50rpx;
+    margin: 30rpx auto 0;
+}
